@@ -19,6 +19,12 @@
     "url": "https://github.com/tvrcgo/arcjs/issues"
   },
   "homepage": "https://github.com/tvrcgo/arcjs#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "mobx-react-connect": "^0.2.7"
+  },
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
@@ -26,10 +32,6 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
-    "mobx-react-connect": "^0.2.7",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router": "^4.0.0",
     "webpack": "^2.3.2"
   }
 }

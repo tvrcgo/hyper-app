@@ -22,3 +22,5 @@ function appRender(ctx, app) {
     return connect(statelessComponent, ctx, ctx.__STYLES__)
   }
 }
+
+export default appRender
