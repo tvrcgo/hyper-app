@@ -1,0 +1,22 @@
+{
+  "name": "arcjs",
+  "version": "0.0.1",
+  "description": "front-end app framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvrcgo/arcjs.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "tvrcgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvrcgo/arcjs/issues"
+  },
+  "homepage": "https://github.com/tvrcgo/arcjs#readme"
+}
