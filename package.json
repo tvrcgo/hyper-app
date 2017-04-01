@@ -28,6 +28,6 @@
     "react-router": "^4.0.0"
   },
   "devDependencies": {
-    "webpack-compile-loop": "^0.3.3"
+    "webpack-compile-loop": "^0.3.4"
   }
 }
