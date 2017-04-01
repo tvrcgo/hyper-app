@@ -1,6 +1,6 @@
 {
   "name": "arcjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "front-end app framework",
   "main": "index.js",
   "scripts": {
