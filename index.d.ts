@@ -8,13 +8,13 @@ export class Application {
 
 }
 
-export default class Yoda extends Application {
+export default class Arc extends Application {
 
   constructor(config?: {})
 
   mixin(store: ((props: any) => {} | {}), CSSModule?: {}): void
 
-  render(Component: React.StatelessComponent<props?: {}, YodaContext?: {}, context?: {}>): React.ReactElement<any>
+  render(Component: React.StatelessComponent<props?: {}, ArcContext?: {}, context?: {}>): React.ReactElement<any>
 
   router(routes: {}[]): void
 
