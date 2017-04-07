@@ -14,7 +14,7 @@ export default class Arc extends Application {
 
   mixin(store: ((props: any) => {} | {}), CSSModule?: {}): void
 
-  render(Component: React.StatelessComponent<props?: {}, ArcContext?: {}, context?: {}>): React.ReactElement<any>
+  render(Component: React.StatelessComponent<any>): React.ReactElement<any>
 
   router(routes: {}[]): void
 
