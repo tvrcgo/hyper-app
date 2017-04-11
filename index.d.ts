@@ -1,4 +1,4 @@
-import React = require('react')
+import * as React from 'react'
 
 export class Application {
 
@@ -12,7 +12,7 @@ export default class Arc extends Application {
 
   constructor(config?: {})
 
-  mixin(store: ((props: any) => {} | {}), CSSModule?: {}): void
+  mixin(store: ((props: any) => {}) | {}, CSSModule?: {}): void
 
   render(Component: React.StatelessComponent<any>): React.ReactElement<any>
 
