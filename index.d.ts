@@ -8,7 +8,7 @@ export class Application {
 
 }
 
-export default class Arc extends Application {
+export default class HyperApp extends Application {
 
   constructor(config?: {})
 

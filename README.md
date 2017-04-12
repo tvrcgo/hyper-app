@@ -1,16 +1,21 @@
-# arcjs
+# Hyper App
 
 Easy to build front-end app.
 
 ## Install
 
 ```shell
-npm install --save arcjs
+npm install --save hyper-app
 ```
 
 ## Usage
 
+Application
+
 - `use()` mount plugin.
+
+Hyper App
+
 - `mixin()` mixin store and css module.
 - `render()` render component with mixin assets.
 - `router()` set react routes.
@@ -19,11 +24,11 @@ npm install --save arcjs
 ### Basic
 
 ```js
-import Arc from 'arcjs'
+import App from 'hyper-app'
 import Store from './index.st'
 import styles from './index.css'
 
-const app = new Arc()
+const app = new App()
 
 app.mixin(Store, styles)
 

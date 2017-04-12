@@ -27,8 +27,8 @@ class Application {
 // Avoid application prototype members being modified by plugin.
 (Object.freeze || Object)(Application.prototype)
 
-// Arc
-class Arc extends Application {
+// HyperApp
+class HyperApp extends Application {
   constructor(props) {
     super(props)
     // use render, router in default.
@@ -38,6 +38,6 @@ class Arc extends Application {
 }
 
 export {
-  Arc as default,
+  HyperApp as default,
   Application
 }
