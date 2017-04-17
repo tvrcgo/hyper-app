@@ -38,6 +38,6 @@ class HyperApp extends Application {
 }
 
 export {
-  HyperApp as default,
-  Application
+  Application,
+  HyperApp as default
 }
